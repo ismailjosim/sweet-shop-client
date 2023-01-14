@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Butter",
+		"price": 150,
 		"categoryId": 1001,
 		"img01": "https://i.ibb.co/M2MwstH/category-4.webp",
 		"img02": "https://i.ibb.co/4FLB0cy/category-5.webp",
@@ -9,6 +10,7 @@
 	},
 	{
 		"name": "Pound",
+		"price": 900,
 		"categoryId": 1002,
 		"img01": "https://i.ibb.co/SyhmwXh/category-20.webp",
 		"img02": "https://i.ibb.co/dk0pxZs/category-9.webp",
@@ -17,6 +19,7 @@
 	},
 	{
 		"name": "Genoise",
+		"price": 1200,
 		"categoryId": 1003,
 		"img01": "https://i.ibb.co/9pzK6Gx/category-10.webp",
 		"img02": "https://i.ibb.co/0msxFFX/category-12.webp",
@@ -25,6 +28,7 @@
 	},
 	{
 		"name": "Biscuit",
+		"price": 850,
 		"categoryId": 1004,
 		"img01": "https://i.ibb.co/v1QDMtk/category-13.webp",
 		"img02": "https://i.ibb.co/4FLB0cy/category-5.webp",
@@ -33,6 +37,7 @@
 	},
 	{
 		"name": "Angel Food",
+		"price": 650,
 		"categoryId": 1005,
 		"img01": "https://i.ibb.co/4FLB0cy/category-5.webp",
 		"img02": "https://i.ibb.co/cQ8dBTt/category-8.webp",
@@ -41,6 +46,7 @@
 	},
 	{
 		"name": "Chiffon",
+		"price": 145,
 		"categoryId": 1006,
 		"img01": "https://i.ibb.co/JtQgvsy/category-19.webp",
 		"img02": "https://i.ibb.co/SyhmwXh/category-20.webp",
@@ -49,6 +55,7 @@
 	},
 	{
 		"name": "Baked Flourless",
+		"price": 200,
 		"categoryId": 1007,
 		"img01": "https://i.ibb.co/7VwKM8X/category-18.webp",
 		"img02": "https://i.ibb.co/m8PjdwK/category-17.webp",
@@ -57,6 +64,7 @@
 	},
 	{
 		"name": "Unbaked Flourless",
+		"price": 350,
 		"categoryId": 1008,
 		"img01": "https://i.ibb.co/4Fkbb5v/category-14.webp",
 		"img02": "https://i.ibb.co/P6M7SWP/category-15.webp",
@@ -65,6 +73,7 @@
 	},
 	{
 		"name": "Genoise",
+		"price": 500,
 		"categoryId": 1009,
 		"img01": "https://i.ibb.co/9pzK6Gx/category-10.webp",
 		"img02": "https://i.ibb.co/YLrHpD0/category-11.webp",
@@ -73,6 +82,7 @@
 	},
 	{
 		"name": "Red Velvet",
+		"price": 100,
 		"categoryId": 1010,
 		"img01": "https://i.ibb.co/SrGFxXf/category-7.webp",
 		"img02": "https://i.ibb.co/cQ8dBTt/category-8.webp",

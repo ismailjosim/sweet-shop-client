@@ -8,11 +8,11 @@ module.exports = {
       {
         sweetTheme: {
 
-          "primary": "#0FCFEC",
+          "primary": "#fb016f",
 
-          "secondary": "#3A4256",
+          "secondary": "#363435",
 
-          "accent": "#19D3AE",
+          "accent": "#fb016f",
 
           "neutral": "#151623",
 

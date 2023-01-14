@@ -2,11 +2,11 @@ import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
-import slide01 from '../../assets/images/sweet01.jpg';
-import slide02 from '../../assets/images/sweet02.jpg';
-import slide03 from '../../assets/images/sweet03.jpg';
-import slide04 from '../../assets/images/sweet04.jpg';
-import slide05 from '../../assets/images/sweet06.jpg';
+import slide01 from '../../../assets/images/sweet01.jpg';
+import slide02 from '../../../assets/images/sweet02.jpg';
+import slide03 from '../../../assets/images/sweet03.jpg';
+import slide04 from '../../../assets/images/sweet04.jpg';
+import slide05 from '../../../assets/images/sweet06.jpg';
 import { FaShoppingCart } from "react-icons/fa";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 

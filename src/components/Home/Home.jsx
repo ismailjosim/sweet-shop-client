@@ -1,10 +1,13 @@
 import React from 'react';
-import Hero from './Hero';
+import Categories from './HomeSections/Categories';
+import Hero from './HomeSections/Hero';
+
 
 const Home = () => {
     return (
         <section>
             <Hero />
+            <Categories />
         </section>
     );
 };

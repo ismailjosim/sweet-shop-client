@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from './Hero';
 
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
 
     return (
         <section>
-            <h3>Welcome home</h3>
+            <Hero />
         </section>
     );
 };

@@ -1,6 +1,9 @@
 import React from 'react';
 import { BsFillHeartFill } from "react-icons/bs";
-import product01 from '../../../assets/images/sweet01.jpg'
+import product01 from '../../../assets/images/sweet01.jpg';
+
+
+
 const Categories = () => {
     return (
         <div className='grid grid-cols-4 gap-5 my-10 w-11/12 mx-auto'>

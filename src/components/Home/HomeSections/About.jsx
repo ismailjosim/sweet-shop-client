@@ -5,10 +5,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const About = () => {
     return (
         <section style={{ backgroundImage: `url(${ sweetBg })` }} className="overflow-hidden bg-cover bg-center bg-no-repeat">
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-                <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                        <img alt="" src={img} class="absolute inset-0 h-full w-full object-cover" />
+            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+                <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                    <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+                        <img alt="" src={img} className="absolute inset-0 h-full w-full object-cover" />
                     </div>
                     <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                         <div className="max-w-lg text-center sm:text-left">

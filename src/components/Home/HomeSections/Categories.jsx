@@ -9,8 +9,6 @@ const Categories = () => {
         fetch('categories.json')
             .then(res => res.json())
             .then(data => setProducts(data))
-
-
     }, [])
 
 

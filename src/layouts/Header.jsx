@@ -13,7 +13,6 @@ const Header = () => {
 
 
 
-
     return (
         <header className='border-b-2'>
             <div className="navbar font-semibold lg:w-11/12 mx-auto">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/images/sweet-only-text-logo.png';
 
 const Header = () => {
@@ -7,8 +7,9 @@ const Header = () => {
 
 
     const menuItems = <>
-        <li><Link className='hover:btn-secondary rounded-md hover:text-white' to='/'>Home</Link></li>
-        <li><Link className='hover:btn-secondary rounded-md hover:text-white' to='/about'>About US</Link></li>
+        <li><NavLink className='hover:btn-secondary rounded-md hover:text-white active:bg-primary active:text-white' to='/'>Home</NavLink></li>
+        <li><NavLink className='hover:btn-secondary rounded-md hover:text-white active:bg-primary active:text-white' to='/about'>About</NavLink></li>
+        <li><NavLink className='hover:btn-secondary rounded-md hover:text-white active:bg-primary active:text-white' to='/profile'>Profile</NavLink></li>
     </>
 
 

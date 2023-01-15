@@ -43,7 +43,7 @@ const Categories = () => {
                                 <h3 className="mt-4 text-lg font-medium text-gray-900">{name}</h3>
                                 <p className="mt-1.5 text-secondary font-light">{details.slice(0, 100)}...<span className='font-semibold text-primary'>Read More</span></p>
                                 <form className="mt-4">
-                                    <Link to={`/${ categoryId }`} className="btn btn-primary w-full text-sm font-medium transition text-white rounded hover:scale-105"> Add to Cart</Link>
+                                    <Link to={`/product/${ categoryId }`} className="btn btn-primary w-full text-sm font-medium transition text-white rounded hover:scale-105"> Add to Cart</Link>
                                 </form>
                             </div>
                         </div>

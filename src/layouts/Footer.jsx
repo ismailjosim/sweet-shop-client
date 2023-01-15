@@ -71,7 +71,7 @@ const Footer = () => {
                     </div>
                     <div className="text-center sm:text-left">
                         <p className="text-lg font-medium text-gray-900">Helpful Links</p>
-                        <div className="grid grid-cols-5 my-5">
+                        <div className="grid grid-cols-5 gap-5 my-5 mr-0 md:mr-32">
                             <p className='w-8 h-8 bg-primary flex justify-center items-center rounded-full hover:bg-secondary transition-all duration-200'>
                                 <FaFacebookF className='text-white' />
                             </p>

@@ -17,14 +17,9 @@ const Header = () => {
     return (
         <header className='border-b-2'>
             <div className="navbar font-semibold lg:w-11/12 mx-auto">
-                <label htmlFor="dashboard-drawer" tabIndex={2} className="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </label>
                 <div className="navbar-start">
                     <Link className='' to='/'>
-                        <img className='w-48' src={logo} alt="" />
+                        <img className='w-40' src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="navbar-end">

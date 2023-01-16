@@ -46,14 +46,14 @@ const About = () => {
 
 
     return (
-        <div className='lg:w-8/12 mx-auto my-5'>
-            <h2 className='text-5xl font-black capitalize mt-10'>Project Documentation</h2>
+        <div className='lg:w-8/12 w-11/12 mx-auto my-5'>
+            <h2 className='lg:text-5xl md:text-3xl text-2xl font-black capitalize mt-10'>Project Documentation</h2>
             <div className="border-l-4 border-primary bg-gray-100 p-6 my-5">
                 <p className=''>
                     Welcome to <Link className='font-semibold hover:text-primary hover:underline transition-all duration-300' to='https://sweetshopp.netlify.app/'>Cake Shop</Link>. Take the time to read the complete documentation to get a comprehensive overview of the project. It helps you to understand all the technologies used for project creation and this website.
                 </p>
             </div>
-            <div className='my-10 flex justify-between items-center'>
+            <div className='my-10 flex lg:flex-row md:flex-row flex-col gap-2 justify-between items-center'>
                 <p>
                     <strong>Project Title:</strong>
                     <Link

@@ -2,13 +2,9 @@ import React from 'react';
 import { FaGlobe } from 'react-icons/fa';
 
 const Profile = () => {
-    const frontend = ["HTML5", "CSS3", "BOOTSTRAP5", "TAILWIND CSS", "REACT JS"]
-    const backend = [
-        "NEXT JS",
-        "EXPRESS JS",
-        "MongoDB",
-    ]
-    const tools = ["VS-Code", "DevTools", "Figma", "Netlify", "Vercel", "Git", "Github", "Adobe PS", "Adobe XD"
+    const frontend = ["HTML5", "CSS3", "Javascript", "BOOTSTRAP5", "TAILWIND CSS", "REACT JS", "Redux", "Material UI", "NextJS", "React Bootstrap", "Tanstack Queries", "Firebase", "React Hooks", "React Icon"]
+    const backend = ["NodeJS", "ExpressJS", "Context API", "Rest API", "MongoDB", "NodeJS", "JWT"]
+    const tools = ["VS-Code", "DevTools", "Figma", "Netlify", "Vercel", "Git", "Github", "Adobe Photoshop", "Adobe XD"
 
     ]
 
@@ -84,18 +80,32 @@ const Profile = () => {
                         </div>
 
                     </div>
-                    <div className="grid lg:grid-cols-3 gap-5">
+                    <div className="grid lg:grid-cols-3 gap-5 lg:mt-10">
                         <div className="bg-white card">
-                            <div className="">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h2 className="mb-4 capitalize text-primary text-lg font-semibold">Frontend Development</h2>
-                                        {frontend.map((item, idx) => {
-                                            return <span key={idx} className='text-base font-semibold'>{item}</span>
-                                        })
-                                        }
-                                    </div>
-                                </div>
+                            <div className='p-5'>
+                                <h2 className="mb-4 capitalize text-primary text-lg font-semibold">Frontend Development</h2>
+                                {frontend.map((item, idx) => {
+                                    return <div key={idx} className="transition-all duration-300 inline-block m-2 px-3 rounded-full border border-secondary text-base font-normal hover:font-semibold hover:bg-primary hover:border-primary hover:text-white cursor-pointer">{item}</div>
+                                })
+                                }
+                            </div>
+                        </div>
+                        <div className="bg-white card">
+                            <div className='p-5'>
+                                <h2 className="mb-4 capitalize text-primary text-lg font-semibold">Backend Development</h2>
+                                {backend.map((item, idx) => {
+                                    return <div key={idx} className="transition-all duration-300 inline-block m-2 px-3 rounded-full border border-secondary text-base font-normal hover:font-semibold hover:bg-primary hover:border-primary hover:text-white cursor-pointer">{item}</div>
+                                })
+                                }
+                            </div>
+                        </div>
+                        <div className="bg-white card">
+                            <div className='p-5'>
+                                <h2 className="mb-4 capitalize text-primary text-lg font-semibold">Frontend Development</h2>
+                                {tools.map((item, idx) => {
+                                    return <div key={idx} className="transition-all duration-300 inline-block m-2 px-3 rounded-full border border-secondary text-base font-normal hover:font-semibold hover:bg-primary hover:border-primary hover:text-white cursor-pointer">{item}</div>
+                                })
+                                }
                             </div>
                         </div>
                     </div>

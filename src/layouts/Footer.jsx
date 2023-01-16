@@ -92,10 +92,10 @@ const Footer = () => {
                 </div>
                 <div className="divider"></div>
                 <div className='flex flex-col lg:flex-row md:flex-row justify-between items-center'>
-                    <div class="flex justify-center text-teal-600 sm:justify-start">
+                    <div className="flex justify-center text-teal-600 sm:justify-start">
                         <img src={footerLogo} alt="" className='w-32' />
                     </div>
-                    <p class="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
+                    <p className="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
                         Copyright &copy; 2022. All rights reserved.
                     </p>
                 </div>

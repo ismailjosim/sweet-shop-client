@@ -15,7 +15,7 @@ const Categories = () => {
 
 
     const heading = {
-        primary: "Our", secondary: "Collection"
+        primary: "FEATURED PRODUCTS", secondary: "Best Selling Customized Cake"
     }
 
     return (

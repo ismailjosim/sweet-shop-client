@@ -1,172 +1,102 @@
 import React from 'react';
+import { FaGlobe } from 'react-icons/fa';
 
 const Profile = () => {
+    const frontend = ["HTML5", "CSS3", "BOOTSTRAP5", "TAILWIND CSS", "REACT JS"]
+    const backend = [
+        "NEXT JS",
+        "EXPRESS JS",
+        "MongoDB",
+    ]
+    const tools = ["VS-Code", "DevTools", "Figma", "Netlify", "Vercel", "Git", "Github", "Adobe PS", "Adobe XD"
+
+    ]
+
+
+
     return (
-        <section style={{ backgroundColor: '#eee' }}>
-            <div className="container py-5">
-                <div className="row">
-                    <div className="col-lg-4">
-                        <div className="card mb-4">
-                            <div className="card-body text-center">
+        <section className='bg-slate-100'>
+            <div className="w-11/12 mx-auto py-5">
+                <div>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-5 lg:gap-10">
+                        <div className="card mb-4 bg-white shadow-md">
+                            <div className="card-body justify-center items-center">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
                                     alt="avatar"
-                                    className="rounded-circle"
-                                    style={{ width: '150px' }}
+                                    className="rounded-full w-36 bg-slate-100"
                                 />
-                                <h5 className="my-3">John Smith</h5>
-                                <p className="text-muted mb-1">Full Stack Developer</p>
-                                <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
-                                <div className="d-flex justify-content-center mb-2">
-                                    <button type="button" className="btn btn-primary">Follow</button>
-                                    <button type="button" className="btn btn-outline-primary ms-1">Message</button>
+                                <h5 className="my-3">MD JASIM</h5>
+                                <p className="text-muted mb-1">MERN Stack Developer</p>
+                                <p className="text-muted mb-4">Bhola, Barisal, BD</p>
+                                <div className="flex justify-center gap-2 mb-2">
+                                    <button type="button" className="btn btn-sm text-white btn-primary rounded-sm">Follow</button>
+                                    <button type="button" className="btn btn-sm btn-outline btn-primary rounded-sm">Message</button>
                                 </div>
                             </div>
                         </div>
-                        <div className="card mb-4 mb-lg-0">
-                            <div className="card-body p-0">
-                                <ul className="list-group list-group-flush rounded-3">
-                                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                                        <i className="fas fa-globe fa-lg text-warning"></i>
-                                        <p className="mb-0">https://mdbootstrap.com</p>
-                                    </li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                                        <i className="fab fa-github fa-lg" style={{ color: '#333333' }}></i>
-                                        <p className="mb-0">mdbootstrap</p>
-                                    </li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                                        <i className="fab fa-twitter fa-lg" style={{ color: '#55acee' }}></i>
-                                        <p className="mb-0">@mdbootstrap</p>
-                                    </li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                                        <i className="fab fa-instagram fa-lg" style={{ color: '#ac2bac' }}></i>
-                                        <p className="mb-0">mdbootstrap</p>
-                                    </li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                                        <i className="fab fa-facebook-f fa-lg" style={{ color: '#3b5998' }}></i>
-                                        <p className="mb-0">mdbootstrap</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-8">
-                        <div className="card mb-4">
-                            <div className="card-body">
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <p className="mb-0">Full Name</p>
+                        <div className="card mb-4 bg-white mt-5 lg:mt-0">
+                            <div className="card-body flex gap-3">
+                                <div className="grid grid-cols-3">
+                                    <div>
+                                        <p className="col-span-1 mb-0">Full Name</p>
                                     </div>
-                                    <div className="col-sm-9">
-                                        <p className="text-muted mb-0">Johnatan Smith</p>
+                                    <div>
+                                        <p className="col-span-2 mb-0">MD JASIM</p>
                                     </div>
                                 </div>
                                 <hr />
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <p className="mb-0">Email</p>
+                                <div className="grid grid-cols-3">
+                                    <p className="col-span-1 mb-0">Email</p>
+                                    <p className="col-span-2 mb-0">ismailjosim@yahoo.com</p>
+                                </div>
+                                <hr />
+                                <div className="grid grid-cols-3">
+                                    <div>
+                                        <p className="col-span-1 mb-0">Phone</p>
                                     </div>
-                                    <div className="col-sm-9">
-                                        <p className="text-muted mb-0">example@example.com</p>
+                                    <div>
+                                        <p className="col-span-2 mb-0">+880 1715 052 808</p>
                                     </div>
                                 </div>
                                 <hr />
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <p className="mb-0">Phone</p>
+                                <div className="grid grid-cols-3">
+                                    <div>
+                                        <p className="col-span-1 mb-0">Phone</p>
                                     </div>
-                                    <div className="col-sm-9">
-                                        <p className="text-muted mb-0">(097) 234-5678</p>
-                                    </div>
-                                </div>
-                                <hr />
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <p className="mb-0">Mobile</p>
-                                    </div>
-                                    <div className="col-sm-9">
-                                        <p className="text-muted mb-0">(098) 765-4321</p>
+                                    <div>
+                                        <p className="col-span-2 mb-0">+880 1715 052 808</p>
                                     </div>
                                 </div>
                                 <hr />
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <p className="mb-0">Address</p>
-                                    </div>
-                                    <div className="col-sm-9">
-                                        <p className="text-muted mb-0">Bay Area, San Francisco, CA</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            {/* <div className="col-md-6">
-                                <div className="card mb-4 mb-md-0">
-                                    <div className="card-body">
-                                        <p className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status
+                                <div className="grid grid-cols-3">
+                                    <div>
+                                        <p className="col-span-1 flex items-center gap-1">
+                                            <FaGlobe className='text-primary' />
+                                            <span className='font-semibold text-primary'>Website</span>
                                         </p>
-                                        <p className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Web Design</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" width={80} valuemin={0} valuemax={100}></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Website Markup</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">One Page</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Mobile Template</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Backend API</p>
-                                        <div className="progress rounded mb-2 h-1">
-                                            <div className="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                    </div>
+                                    <div>
+                                        <p className="col-span-2 mb-0">https://ismailjosim.netlify.app</p>
                                     </div>
                                 </div>
-    </div>*/}
+                            </div>
+                        </div>
 
-                            { /*<div className="col-md-6">
-                                <div className="card mb-4 mb-md-0">
+                    </div>
+                    <div className="grid lg:grid-cols-3 gap-5">
+                        <div className="bg-white card">
+                            <div className="">
+                                <div className="card">
                                     <div className="card-body">
-                                        <p className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status
-                                        </p>
-                                        <p className="mb-1" style="font-size: .77rem;">Web Design</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style={{ width: '80%' }} aria-valuenow="80"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Website Markup</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style={{ width: '72%' }} aria-valuenow="72"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">One Page</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style={{ width: '89%' }} aria-valuenow="89"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Mobile Template</p>
-                                        <div className="progress rounded h-1">
-                                            <div className="progress-bar" role="progressbar" style={{ width: '55%' }} aria-valuenow="55"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p className="mt-4 mb-1 text-sm">Backend API</p>
-                                        <div className="progress rounded mb-2 h-1">
-                                            <div className="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
-                                                aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <h2 className="mb-4 capitalize text-primary text-lg font-semibold">Frontend Development</h2>
+                                        {frontend.map((item, idx) => {
+                                            return <span key={idx} className='text-base font-semibold'>{item}</span>
+                                        })
+                                        }
                                     </div>
                                 </div>
-    </div>
-*/}
+                            </div>
                         </div>
                     </div>
                 </div>

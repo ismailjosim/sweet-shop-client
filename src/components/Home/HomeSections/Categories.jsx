@@ -1,17 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { BsFillHeartFill } from "react-icons/bs";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import SectionHeading from '../../Shared/SectionHeading';
 const Categories = () => {
-    const [products, setProducts] = useState([]);
 
 
-    useEffect(() => {
-        fetch('categories.json')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+    const { data: products = [] } = useQuery({
+        queryKey: ['categories'],
+        queryFn: async () => {
+            const res = await fetch("http://localhost:5000/products");
+            const data = await res.json();
+            return data?.products;
+        }
+    })
+
 
 
     const heading = {

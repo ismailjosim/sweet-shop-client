@@ -60,7 +60,7 @@ const Profile = () => {
                                         <p className="col-span-1 mb-0">Github</p>
                                     </div>
                                     <div>
-                                        <Link target={'_blank'} to="https://github.com/ismailjosim" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200">github.com/ismailjosim</Link>
+                                        <a target='_blank' href="https://github.com/ismailjosim" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200" rel="noreferrer">github.com/ismailjosim</a>
                                     </div>
                                 </div>
                                 <hr />
@@ -69,7 +69,7 @@ const Profile = () => {
                                         <p className="col-span-1 flex items-center gap-1">Website</p>
                                     </div>
                                     <div>
-                                        <Link target={'_blank'} to="https://ismailjosim.netlify.app" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200">Portfolio</Link>
+                                        <a target='_blank' href="https://ismailjosim.netlify.app" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200" rel="noreferrer">Portfolio</a>
                                     </div>
                                 </div>
                                 <hr />
@@ -78,7 +78,7 @@ const Profile = () => {
                                         <p className="col-span-1 flex items-center gap-1">Linkedin</p>
                                     </div>
                                     <div>
-                                        <Link target={'_blank'} to="https://www.linkedin.com/in/ismailjosim/" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200">linkedin.com/in/ismailjosim</Link>
+                                        <a target='_blank' href="https://www.linkedin.com/in/ismailjosim/" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200" rel="noreferrer">linkedin.com/in/ismailjosim</a>
                                     </div>
                                 </div>
                                 <hr />
@@ -87,7 +87,7 @@ const Profile = () => {
                                         <p className="col-span-1 flex items-center gap-1">Resume</p>
                                     </div>
                                     <div>
-                                        <Link target={'_blank'} to="https://drive.google.com/file/d/1outMVkz4ZmF902o7SotvWdR5n_h2iDEb/view?usp=share_link" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200">My Resume</Link>
+                                        <a target='_blank' href="https://drive.google.com/file/d/1outMVkz4ZmF902o7SotvWdR5n_h2iDEb/view?usp=share_link" className="col-span-2 mb-0 hover:text-primary hover:underline transition-all duration-200" rel="noreferrer">My Resume</a>
                                     </div>
                                 </div>
                             </div>

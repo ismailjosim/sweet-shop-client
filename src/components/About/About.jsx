@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { TfiHandPointRight } from "react-icons/tfi";
 const About = () => {
     const documentationData = [
@@ -32,14 +31,41 @@ const About = () => {
             phase: "Implementation",
             items:
                 [
-
-                    "Create router, component and Basic pages.",
-                    "Add navigation: nav items, logo also make fully responsive",
+                    "Create router, component, and Basic pages.",
+                    "Add navigation: nav items, the logo also make fully responsive",
                     "add footer section.",
                     "Add home slider and other sections",
                     "Add product and its dynamic route",
-                    "create JSON file for all products",
-                    "Fetching data to show dynamic data for all cards",
+                    "create a JSON file for all products",
+                    "Fetching data to show cards",
+                ]
+        },
+        {
+            phaseNo: "04",
+            phase: "Server Side",
+            items:
+                [
+                    "Create Basic Node express backend server",
+                    "install NPM, node, express, cors, etc",
+                    "add default endpoint and run the server",
+                    "add all products end point from Product.json file",
+                    "Query single product from all products and create single product endpoint.",
+                    "Host server in vercel",
+                    "Add endpoint to the frontend and fetch all data",
+                ]
+        },
+        {
+            phaseNo: "05",
+            phase: "Finale Touch",
+            items:
+                [
+
+                    "Complete all Details and fix all errors.",
+                    "Build the website using: npm run build",
+                    "Host site to Netlify and create live site",
+                    "Fix Netlify page Reload error problem",
+                    "Project completed and ready to submit.",
+
                 ]
         }
     ]
@@ -50,16 +76,19 @@ const About = () => {
             <h2 className='lg:text-5xl md:text-3xl text-2xl font-black capitalize mt-10'>Project Documentation</h2>
             <div className="border-l-4 border-primary bg-gray-100 p-6 my-5">
                 <p className=''>
-                    Welcome to <Link className='font-semibold hover:text-primary hover:underline transition-all duration-300' to='https://sweetshopp.netlify.app/'>Cake Shop</Link>. Take the time to read the complete documentation to get a comprehensive overview of the project. It helps you to understand all the technologies used for project creation and this website.
+                    Welcome to <a
+                        target='_blank'
+                        className='font-semibold hover:text-primary hover:underline transition-all duration-300' href='https://sweetshopp.netlify.app/' rel="noreferrer">Cake Shop</a>. Take the time to read the complete documentation to get a comprehensive overview of the project. It helps you to understand all the technologies used for project creation and this website.
                 </p>
             </div>
             <div className='my-10 flex lg:flex-row md:flex-row flex-col gap-2 justify-between items-center'>
                 <p>
                     <strong>Project Title:</strong>
-                    <Link
-                        className='font-semibold hover:text-primary hover:underline transition-all duration-300' to='https://sweetshopp.netlify.app'>
+                    <a
+                        target={'_blank'}
+                        className='font-semibold hover:text-primary hover:underline transition-all duration-300' href='https://sweetshopp.netlify.app' rel="noreferrer">
                         Cake Shop
-                    </Link>
+                    </a>
                 </p>
                 <p>
                     <strong>Date: </strong>

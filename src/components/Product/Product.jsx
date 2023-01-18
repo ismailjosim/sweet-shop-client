@@ -8,7 +8,7 @@ const Product = () => {
     return (
         <section className="">
             <div className="container px-5 py-24 mx-auto">
-                <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                <div className="lg:w-4/5 mx-auto flex flex-col-reverse lg:flex-row">
                     <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
                         <h2 className="text-sm title-font text-gray-500 tracking-widest">PRODUCT NAME</h2>
                         <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">{name}</h1>
@@ -30,7 +30,7 @@ const Product = () => {
                             <button className="btn btn-primary rounded-sm text-white transition-all duration-300 hover:bg-secondary hover:border-secondary">Buy Now</button>
                         </div>
                     </div>
-                    <img className='lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded' src={cover} alt="" />
+                    <img className='lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded lg:mb-0 mb-5' src={cover} alt="" />
                 </div>
             </div>
         </section>
